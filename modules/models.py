@@ -5,7 +5,7 @@ from statsforecast import StatsForecast
 from statsforecast.models import Naive
 
 from .feature_generation import get_features_df_and_targets
-from .index_slicing import features__test_idx, features_targets__train_idx, direct_features__test_idx, direct_features_targets__train_idx, direct_mimo_features__test_idx, direct_mimo_features_targets__train_idx, direct_mimo_features_targets__holdout_idx
+from .index_slicing import get_slice, get_cols_idx, direct_mimo_features_targets__train_idx, direct_mimo_features__test_idx, direct_mimo_features_targets__holdout_idx
 
 
 class BaseModel:
